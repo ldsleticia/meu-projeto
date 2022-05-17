@@ -15,7 +15,7 @@ function App() {
       <h1>Olá {newName}</h1>
       <p>Meu primeiro App</p>
       <p>Soma: {sum(2, 3)}</p>
-      <img src={url} alt='minha imagem'/>
+      <img src={url} alt='minha imagem' />
     </div>
   )
 }
