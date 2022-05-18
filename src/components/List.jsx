@@ -5,8 +5,9 @@ export function List() {
     <>
       <h1>Minha lista</h1>
       <ul>
-        <Item marca="Ferari"/>
-        <Item marca="Lamborguini"/>
+        <Item marca="Ferari" ano_lancamento={1985} />
+        <Item marca="Lamborguini" ano_lancamento={1964} />
+        <Item />
       </ul>
     </>
   );
