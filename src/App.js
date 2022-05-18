@@ -18,10 +18,10 @@ function App() {
     <div className='App'>
       <Frase/>
       <Frase/>
-      <SayMyName nome='Letícia' />
-      <SayMyName nome='Matheus' />
-      <SayMyName nome='Elijah' />
-      <Pessoa nome='Letícia' idade='26' profissao='Programadora' foto={url} />
+      <SayMyName name='Letícia' />
+      <SayMyName name='Matheus' />
+      <SayMyName name='Elijah' />
+      <Pessoa name='Letícia' idade='26' profissao='Programadora' foto={url} />
     </div>
   )
 }
